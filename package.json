@@ -1,0 +1,27 @@
+{
+  "name": "personal-business-card",
+  "version": "1.0.0",
+  "description": "A personal business card for Thiago Silva",
+  "keywords": [
+    "business card",
+    "business",
+    "card",
+    "npm card",
+    "npx card"
+  ],
+  "main": "business-card.js",
+  "scripts": {
+    "test": "node business-card.js"
+  },
+  "bin": "./business-card.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/silva-thiago/personal-business-card.git"
+  },
+  "bugs": {
+    "url": "https://github.com/silva-thiago/personal-business-card/issues"
+  },
+  "homepage": "https://github.com/silva-thiago/personal-business-card#readme",
+  "author": "Thiago Silva <thiago.silva@imd.ufrn.br> (https://silva-thiago.github.io)",
+  "license": "MIT"
+}
