@@ -1,6 +1,6 @@
 {
   "name": "thiagosilva",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A personal business card for Thiago Silva",
   "keywords": [
     "business card",
@@ -18,7 +18,7 @@
     "publish": "npm publish"
   },
   "bin": "./business-card.js",
-  "devDependencies": {
+  "dependencies": {
     "boxen": "^5.0.1",
     "chalk": "^4.1.2",
     "clear": "^0.1.0",
