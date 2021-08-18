@@ -1,5 +1,5 @@
 {
-  "name": "personal-business-card",
+  "name": "thiagosilva",
   "version": "1.0.0",
   "description": "A personal business card for Thiago Silva",
   "keywords": [
@@ -32,12 +32,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/silva-thiago/personal-business-card.git"
+    "url": "git+ssh://git@github.com/silva-thiago/thiagosilva.git"
   },
   "bugs": {
-    "url": "https://github.com/silva-thiago/personal-business-card/issues"
+    "url": "https://github.com/silva-thiago/thiagosilva/issues"
   },
-  "homepage": "https://github.com/silva-thiago/personal-business-card#readme",
+  "homepage": "https://github.com/silva-thiago/thiagosilva#readme",
   "author": "Thiago Silva <thiago.silva@imd.ufrn.br> (https://silva-thiago.github.io)",
   "license": "MIT"
 }
