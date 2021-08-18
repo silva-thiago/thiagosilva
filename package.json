@@ -11,9 +11,25 @@
   ],
   "main": "business-card.js",
   "scripts": {
-    "test": "node business-card.js"
+    "test": "node business-card.js",
+    "major": "npm version major",
+    "minor": "npm version minor",
+    "patch": "npm version patch",
+    "publish": "npm publish"
   },
   "bin": "./business-card.js",
+  "devDependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "cli-spinners": "^2.6.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^8.1.2",
+    "open": "^8.2.1",
+    "ora": "^5.4.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/silva-thiago/personal-business-card.git"
