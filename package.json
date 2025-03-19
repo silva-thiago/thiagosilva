@@ -11,6 +11,24 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "cz",
+    "postinstall": "husky || true"
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "@commitlint/cz-commitlint": "^19.8.0",
+    "@types/node": "^22.13.10",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.7",
+    "pinst": "^3.0.0",
+    "typescript": "^5.8.2"
   },
   "repository": {
     "type": "git",
